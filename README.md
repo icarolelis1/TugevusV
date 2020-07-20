@@ -74,7 +74,7 @@ Get maximum and minimum values in X,Y,Z and use these values to build the orthog
 Since the inspiration is a top down game,and the level is at height 0 ; the farm plane is calculated based on the Height of the Camera,
 
 
-Reference : https://www.youtube.com/watch?v=HusvGeEDU_U .
+Reference : https://www.youtube.com/watch?v=o6zDfDkOFIc
 
 
 ![](Tugevus/Aplication/s1.JPG)
