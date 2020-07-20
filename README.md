@@ -81,5 +81,11 @@ Reference : https://www.youtube.com/watch?v=o6zDfDkOFIc
 ![](Tugevus/Aplication/s1.JPG)
 
 
+Dependencies :
+
+GLM Library to do math calculations.
+GLFW to create the window.
+ImGui to create the interface.
+
 
 
