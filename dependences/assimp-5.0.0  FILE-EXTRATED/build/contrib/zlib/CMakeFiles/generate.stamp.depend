@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckTypeSize.c.in
+C:/Program Files/CMake/share/cmake-3.15/Modules/CheckTypeSize.cmake
+C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0/contrib/zlib/CMakeLists.txt
+C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0/contrib/zlib/zconf.h.cmakein
+C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0/contrib/zlib/zlib.pc.cmakein
+C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/CMakeFiles/CheckTypeSize/OFF64_T.c

@@ -1,0 +1,7 @@
+It's a simple Vulkan Project with learning purposes.
+It's a 3D scene with a PBR render and some post processing effects.
+
+Using the following Apis:
+Assimp 
+Glm
+imGui (in future)

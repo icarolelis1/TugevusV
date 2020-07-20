@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\CMakeFiles\32e80b0c8d33926fa121b68328786f3f\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F54DE42F-EC1C-3EB5-80F0-E04A9990E817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

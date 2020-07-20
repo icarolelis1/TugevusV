@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\CMakeFiles\c4336031fc32f7f56efc38241f0e67b0\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F54DE42F-EC1C-3EB5-80F0-E04A9990E817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

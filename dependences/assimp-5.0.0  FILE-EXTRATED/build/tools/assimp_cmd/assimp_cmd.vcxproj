@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2CA1BE84-0EC8-3466-9BE6-9463A2A421FB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>assimp_cmd</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">assimp_cmd.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">assimpd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">assimp_cmd.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">assimp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">assimp_cmd.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">assimp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">assimp_cmd.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">assimp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;EBUG:FULL;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;EBUG:FULL;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/code/Debug/assimp-vc141-mtd.dll" "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\code\Debug\assimp-vc141-mtd.lib;..\..\contrib\zlib\Debug\zlibstaticd.lib;..\..\contrib\irrXML\Debug\IrrXMLd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build;C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/$(Configuration);C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/lib;C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/Debug/assimpd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/Debug/assimpd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/code/Release/assimp-vc141-mt.dll" "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\code\Release\assimp-vc141-mt.lib;..\..\contrib\zlib\Release\zlibstatic.lib;..\..\contrib\irrXML\Release\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build;C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/$(Configuration);C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/lib;C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/Release/assimp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/Release/assimp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/code/MinSizeRel/assimp-vc141-mt.dll" "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\code\MinSizeRel\assimp-vc141-mt.lib;..\..\contrib\zlib\MinSizeRel\zlibstatic.lib;..\..\contrib\irrXML\MinSizeRel\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build;C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/$(Configuration);C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/lib;C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/MinSizeRel/assimp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/MinSizeRel/assimp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\.;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\..\include;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/code/RelWithDebInfo/assimp-vc141-mt.dll" "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\code\RelWithDebInfo\assimp-vc141-mt.lib;..\..\contrib\zlib\RelWithDebInfo\zlibstatic.lib;..\..\contrib\irrXML\RelWithDebInfo\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build;C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/$(Configuration);C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/lib;C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/RelWithDebInfo/assimp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/RelWithDebInfo/assimp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0/tools/assimp_cmd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0" "-BC:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build" --check-stamp-file "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0/tools/assimp_cmd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0" "-BC:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build" --check-stamp-file "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0/tools/assimp_cmd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0" "-BC:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build" --check-stamp-file "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0/tools/assimp_cmd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/assimp-5.0.0" "-BC:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build" --check-stamp-file "C:/Users/Icaro/source/repos/Tugevus/dependences/assimp-5.0.0  FILE-EXTRATED/build/tools/assimp_cmd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\tools\assimp_cmd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\assimp_cmd.rc" />
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\CompareDump.cpp" />
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\ImageExtractor.cpp" />
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\Main.cpp" />
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\Main.h" />
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\resource.h" />
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\WriteDumb.cpp" />
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\Info.cpp" />
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\tools\assimp_cmd\Export.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\ZERO_CHECK.vcxproj">
+      <Project>{C71470FC-7CE7-35F1-90C3-4809D702335B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{A646ED02-08B7-3BF8-85BA-A415F58662F4}</Project>
+      <Name>IrrXML</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\code\assimp.vcxproj">
+      <Project>{CF3DDAE1-E219-3521-876B-08390B4D92A3}</Project>
+      <Name>assimp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{6AD0EEE9-3B40-3089-95BE-570E6031157F}</Project>
+      <Name>zlibstatic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\contrib\zlib\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0E92A928-AD31-34B3-BB8E-6FB9724BE98F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFFFEF02-06EB-31E1-B0EC-518897080AAB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B47E0BE4-8E10-40DE-A43B-80ADD5CB6017}</ProjectGuid>
+    <RootNamespace>Tugevus</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Tugevus</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)dependences\assimp\include;$(SolutionDir)Tugevus\Aplication;$(SolutionDir)Tugevus\TugevusCore\interface;$(SolutionDir)Tugevus\TugevusCore;$(SolutionDir)dependences\GLEW\include;$(SolutionDir)dependences\GLFW64\include;$(SolutionDir)Dependences\Vulkan\include;$(SolutionDir)dependences\glm\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <CompileAsManaged>false</CompileAsManaged>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)dependences\GLEW\lib;$(SolutionDir)dependences\GLFW64\lib-vc2015;$(SolutionDir)dependences\assimp\lib;$(SolutionDir)dependences\Vulkan\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;glfw3.lib;glew32s.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)dependences\Vulkan\include;$(SolutionDir)Tugevus\TugevusCore;$(SolutionDir)Tugevus\Aplication;$(SolutionDir)dependences\assimp\include;$(SolutionDir)dependences\glm\glm;%(AdditionalIncludeDirectories);$(SolutionDir)dependences\GLFW64\include;C:\Users\Icaro\source\repos\Tugevus\Tugevus\TugevusCore\interface;$(SolutionDir)dependences\GLEW\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)dependences\GLEW\lib;C:\Users\Icaro\source\repos\Tugevus\dependences\assimp\lib;$(SolutionDir)dependences\GLFW64\lib-vc2015;$(SolutionDir)dependences\Vulkan\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;glfw3.lib;glew32s.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Aplication\Aplication.cpp" />
+    <ClCompile Include="Aplication\gameCode\CameraController.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TugevusCore\Attachment\Script.cpp" />
+    <ClCompile Include="TugevusCore\Camera\TugevCamera.cpp" />
+    <ClCompile Include="TugevusCore\Collisor\Collisor.cpp" />
+    <ClCompile Include="TugevusCore\Debuger.cpp" />
+    <ClCompile Include="TugevusCore\Device.cpp" />
+    <ClCompile Include="TugevusCore\Input\Input.cpp" />
+    <ClCompile Include="TugevusCore\interface\imgui.cpp" />
+    <ClCompile Include="TugevusCore\interface\imgui_demo.cpp" />
+    <ClCompile Include="TugevusCore\interface\imgui_draw.cpp" />
+    <ClCompile Include="TugevusCore\interface\imgui_impl_glfw.cpp" />
+    <ClCompile Include="TugevusCore\interface\imgui_impl_vulkan.cpp" />
+    <ClCompile Include="TugevusCore\interface\imgui_widgets.cpp" />
+    <ClCompile Include="TugevusCore\material\Material.cpp" />
+    <ClCompile Include="TugevusCore\Model.cpp" />
+    <ClCompile Include="TugevusCore\ParticleSystem.cpp" />
+    <ClCompile Include="TugevusCore\PresentationEngine.cpp" />
+    <ClCompile Include="TugevusCore\Render.cpp" />
+    <ClCompile Include="TugevusCore\SceneGraph.cpp" />
+    <ClCompile Include="TugevusCore\Transform.cpp" />
+    <ClCompile Include="TugevusCore\VulkanDefinition.cpp" />
+    <ClCompile Include="TugevusCore\window\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aplication\Aplication.h" />
+    <ClInclude Include="Aplication\gameCode\CameraController.h" />
+    <ClInclude Include="Aplication\gameCode\GameMaster.h" />
+    <ClInclude Include="Aplication\gameCode\Gamer.h" />
+    <ClInclude Include="TugevusCore\Attachment\Component.h" />
+    <ClInclude Include="TugevusCore\Attachment\Script.h" />
+    <ClInclude Include="TugevusCore\Camera\TugevCamera.h" />
+    <ClInclude Include="TugevusCore\Collisor\Collisor.h" />
+    <ClInclude Include="TugevusCore\Event\Event.h" />
+    <ClInclude Include="TugevusCore\InputCallBack.h" />
+    <ClInclude Include="TugevusCore\Input\GlobalVariables.h" />
+    <ClInclude Include="TugevusCore\Input\Input.h" />
+    <ClInclude Include="TugevusCore\interface\imconfig.h" />
+    <ClInclude Include="TugevusCore\interface\imgui.h" />
+    <ClInclude Include="TugevusCore\interface\imgui_impl_glfw.h" />
+    <ClInclude Include="TugevusCore\interface\imgui_impl_vulkan.h" />
+    <ClInclude Include="TugevusCore\interface\imgui_internal.h" />
+    <ClInclude Include="TugevusCore\interface\imstb_rectpack.h" />
+    <ClInclude Include="TugevusCore\interface\imstb_textedit.h" />
+    <ClInclude Include="TugevusCore\interface\imstb_truetype.h" />
+    <ClInclude Include="TugevusCore\material\Material.h" />
+    <ClInclude Include="TugevusCore\ParticleSystem.h" />
+    <ClInclude Include="TugevusCore\stb_image.h" />
+    <ClInclude Include="TugevusCore\VulkanDefinition.h" />
+    <ClInclude Include="TugevusCore\Debuger.h" />
+    <ClInclude Include="TugevusCore\Device.h" />
+    <ClInclude Include="TugevusCore\Entity.h" />
+    <ClInclude Include="TugevusCore\Model.h" />
+    <ClInclude Include="TugevusCore\PresentationEngine.h" />
+    <ClInclude Include="TugevusCore\Render.h" />
+    <ClInclude Include="TugevusCore\RenderTools.h" />
+    <ClInclude Include="TugevusCore\SceneGraph.h" />
+    <ClInclude Include="TugevusCore\Transform.h" />
+    <ClInclude Include="TugevusCore\TugevusStructs.h" />
+    <ClInclude Include="TugevusCore\window\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aplication\Shaders\aoG\shader.frag" />
+    <None Include="Aplication\Shaders\Bloom\horizontal\horizontalBlur.frag" />
+    <None Include="Aplication\Shaders\Bloom\vertical\verticalBlur.frag" />
+    <None Include="Aplication\Shaders\cook-torrance1\shader.vert" />
+    <None Include="Aplication\Shaders\cubemap\brdfLut\brdfLUT.frag" />
+    <None Include="Aplication\Shaders\cubemap\equirectangular\equirect.frag" />
+    <None Include="Aplication\Shaders\cubemap\prefiltered\prefilter.frag" />
+    <None Include="Aplication\Shaders\cubemap\shader.vert" />
+    <None Include="Aplication\Shaders\cubemap\skybox\shader.vert" />
+    <None Include="Aplication\Shaders\cubemap\skybox\skybox.frag" />
+    <None Include="Aplication\Shaders\displacementWater\water.frag" />
+    <None Include="Aplication\Shaders\dummyPipeline\dummy.frag" />
+    <None Include="Aplication\Shaders\shadow\directional\directionalShadowMapFrag.frag" />
+    <None Include="Aplication\Shaders\toneMapping\shader.vert" />
+    <None Include="Aplication\Shaders\toneMapping\tonemap.frag" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

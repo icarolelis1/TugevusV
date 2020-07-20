@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore">
+      <UniqueIdentifier>{c845cbe7-a71e-4315-b261-3e9f0a5766e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore\Device">
+      <UniqueIdentifier>{f2c54c53-a296-4adb-85c6-6db034f469f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore\Render">
+      <UniqueIdentifier>{489d96bd-48a8-40ca-8e21-9c1b81b7323a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore\Presentation">
+      <UniqueIdentifier>{9da9a7e3-8d39-44a5-8ab0-9f3f7e18232b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\ImGui">
+      <UniqueIdentifier>{9a949226-a944-4b08-9a4a-25d0e7131cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore\Camera">
+      <UniqueIdentifier>{fba8320c-ab9d-4da2-b928-f4b19cb978b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore\Window">
+      <UniqueIdentifier>{48712a34-76f4-4506-afd7-220079c9673c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Aplication">
+      <UniqueIdentifier>{5903f160-3586-4ecf-bac1-cfab74e5de62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore\Debuger">
+      <UniqueIdentifier>{80629a60-2e76-49c1-a563-bbde44c61fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Shaders">
+      <UniqueIdentifier>{0ea70971-0033-4e92-b991-b08dff37da28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\VulkanDef">
+      <UniqueIdentifier>{058f5350-1eb5-42e6-b236-74e0b5b54163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Entity">
+      <UniqueIdentifier>{f7bb2e71-353a-4d0c-a646-601cd6d0c7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Entity\Model">
+      <UniqueIdentifier>{d19dcedf-f4ac-4cc4-a4b0-6ee7549f71b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Entity\Particle">
+      <UniqueIdentifier>{29d376e5-69df-4c20-87d7-c268f7cfcf85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Aplication\SceneGraph">
+      <UniqueIdentifier>{1854691f-d42c-47f4-9b17-d3df9e2c3a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore\Event">
+      <UniqueIdentifier>{4fe1479c-09ee-40f6-8d45-3031863b5979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore\Input">
+      <UniqueIdentifier>{e669a8b5-b551-4544-ac97-750e35c200e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\Aplication\GameCode">
+      <UniqueIdentifier>{c97c8866-8352-4b6c-b6b0-faa23a6f835f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\TugevusCore\Material">
+      <UniqueIdentifier>{de32c8d7-2a6d-4a4f-97a9-a1728431fd70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Arquivos de Cabeçalho\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\Transform.cpp">
+      <Filter>Arquivos de Cabeçalho\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\Attachment\Script.cpp">
+      <Filter>Arquivos de Cabeçalho\Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\window\Window.cpp">
+      <Filter>Arquivos de Recurso\TugevusCore\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\Device.cpp">
+      <Filter>Arquivos de Recurso\TugevusCore\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\Render.cpp">
+      <Filter>Arquivos de Recurso\TugevusCore\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\PresentationEngine.cpp">
+      <Filter>Arquivos de Recurso\TugevusCore\Presentation</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\interface\imgui.cpp">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\interface\imgui_demo.cpp">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\interface\imgui_draw.cpp">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\interface\imgui_impl_glfw.cpp">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\interface\imgui_impl_vulkan.cpp">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\interface\imgui_widgets.cpp">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\Debuger.cpp">
+      <Filter>Arquivos de Recurso\TugevusCore\Debuger</Filter>
+    </ClCompile>
+    <ClCompile Include="Aplication\Aplication.cpp">
+      <Filter>Arquivos de Recurso\Aplication</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\VulkanDefinition.cpp">
+      <Filter>Arquivos de Recurso\VulkanDef</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\Model.cpp">
+      <Filter>Arquivos de Recurso\Entity\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\ParticleSystem.cpp">
+      <Filter>Arquivos de Recurso\Entity\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\SceneGraph.cpp">
+      <Filter>Arquivos de Recurso\Aplication\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\Camera\TugevCamera.cpp">
+      <Filter>Arquivos de Recurso\TugevusCore\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Aplication\gameCode\CameraController.cpp">
+      <Filter>Arquivos de Recurso\Aplication\GameCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\material\Material.cpp">
+      <Filter>Arquivos de Recurso\TugevusCore\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\Input\Input.cpp">
+      <Filter>Arquivos de Recurso\TugevusCore\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TugevusCore\Collisor\Collisor.cpp">
+      <Filter>Arquivos de Recurso\Aplication</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TugevusCore\TugevusStructs.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\stb_image.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\InputCallBack.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Attachment\Script.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Aplication\gameCode\GameMaster.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Aplication\gameCode\Gamer.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\window\Window.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Transform.h">
+      <Filter>Arquivos de Recurso\TugevusCore</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Device.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Render.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\PresentationEngine.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\interface\imstb_truetype.h">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\interface\imgui_impl_glfw.h">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\interface\imgui_impl_vulkan.h">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\interface\imgui_internal.h">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\interface\imstb_rectpack.h">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\interface\imstb_textedit.h">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\interface\imconfig.h">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\interface\imgui.h">
+      <Filter>Arquivos de Recurso\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Debuger.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Debuger</Filter>
+    </ClInclude>
+    <ClInclude Include="Aplication\Aplication.h">
+      <Filter>Arquivos de Recurso\Aplication</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\VulkanDefinition.h">
+      <Filter>Arquivos de Recurso\VulkanDef</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Attachment\Component.h">
+      <Filter>Arquivos de Recurso\Aplication</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Entity.h">
+      <Filter>Arquivos de Recurso\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Model.h">
+      <Filter>Arquivos de Recurso\Entity\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\ParticleSystem.h">
+      <Filter>Arquivos de Recurso\Entity\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\RenderTools.h">
+      <Filter>Arquivos de Recurso\TugevusCore</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\SceneGraph.h">
+      <Filter>Arquivos de Recurso\Aplication\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Event\Event.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Input\Input.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Camera\TugevCamera.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Aplication\gameCode\CameraController.h">
+      <Filter>Arquivos de Recurso\Aplication\GameCode</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\material\Material.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Input\GlobalVariables.h">
+      <Filter>Arquivos de Recurso\TugevusCore\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TugevusCore\Collisor\Collisor.h">
+      <Filter>Arquivos de Recurso\Aplication</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aplication\Shaders\cubemap\brdfLut\brdfLUT.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\cubemap\prefiltered\prefilter.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\displacementWater\water.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\dummyPipeline\dummy.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\cubemap\equirectangular\equirect.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\Bloom\horizontal\horizontalBlur.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\cubemap\skybox\shader.vert">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\toneMapping\shader.vert">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\cubemap\shader.vert">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\cook-torrance1\shader.vert">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\cubemap\skybox\skybox.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\toneMapping\tonemap.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\Bloom\vertical\verticalBlur.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\shadow\directional\directionalShadowMapFrag.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+    <None Include="Aplication\Shaders\aoG\shader.frag">
+      <Filter>Arquivos de Recurso\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

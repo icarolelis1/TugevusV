@@ -1,0 +1,1859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\AMF\AMFImporter.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\AMF\AMFImporter_Material.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3DS\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3DS\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\AC\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\ASE\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\ASE\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assbin\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\B3D\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\BVH\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Collada\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Collada\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\DXF\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\CSM\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\HMP\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Irr\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Irr\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Irr\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\LWO\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\LWO\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\LWO\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\LWO\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\LWS\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD2\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD3\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD5\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD5\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MDC\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MDL\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MDL\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\NFF\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\NDO\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\OFF\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ply\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ply\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MS3D\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\COB\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderCustomData.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\XGL\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Q3D\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Raw\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\SIB\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\SMD\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\STL\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Terragen\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Unreal\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Group.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Light.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Metadata.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Networking.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Rendering.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Shape.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Texturing.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\FIReader.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DVocabulary.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFCommon.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF2\glTF2Importer.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3MF\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3MF\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MMD\MMDImporter.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MMD\MMDPmxParser.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\StepFile\StepFileImporter.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\StepFile\StepFileGen1.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\StepFile\StepFileGen2.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\StepFile\StepFileGen3.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3DS\3DSExporter.cpp">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assbin\AssbinExporter.cpp">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assxml\AssxmlExporter.cpp">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Collada\ColladaExporter.cpp">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjExporter.cpp">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ply\PlyExporter.cpp">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXExporter.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXExportNode.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXExportProperty.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\STL\STLExporter.cpp">
+      <Filter>STL_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X\XFileExporter.cpp">
+      <Filter>X_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DExporter.cpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFExporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF2\glTF2Exporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3MF\D3MFExporter.cpp">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assjson\cencode.c">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assjson\json_exporter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assjson\mesh_splitter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Step\StepExporter.cpp">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\AMF\AMFImporter.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\AMF\AMFImporter_Macro.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\AMF\AMFImporter_Node.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3DS\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3DS\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\AC\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\ASE\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\ASE\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assbin\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\B3D\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\BVH\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Collada\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Collada\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Collada\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\DXF\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\DXF\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\CSM\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\HMP\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\HMP\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\HMP\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Irr\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Irr\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Irr\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\LWO\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\LWO\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\LWO\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\LWS\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD2\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD2\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD2\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD3\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD3\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD5\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MD5\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MDC\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MDC\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MDC\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MDL\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MDL\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MDL\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\NFF\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\NDO\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\OFF\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ogre\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\OpenGEX\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\OpenGEX\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ply\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ply\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MS3D\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\COB\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\COB\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Blender\BlenderCustomData.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCReaderGen_2x3.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\IFC\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\XGL\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXCommon.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Q3D\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Q3BSP\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Q3BSP\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Raw\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\SIB\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\SMD\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\STL\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Terragen\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Unreal\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Macro.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DImporter_Node.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\FIReader.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFCommon.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF2\glTF2Asset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF2\glTF2Asset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF2\glTF2AssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF2\glTF2AssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF2\glTF2Importer.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3MF\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3MF\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3MF\3MFXmlTags.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MMD\MMDCpp14.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MMD\MMDImporter.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MMD\MMDPmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MMD\MMDPmxParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\MMD\MMDVmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Step\STEPFile.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\StepFile\StepFileImporter.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Importer\StepFile\StepReaderGen.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3DS\3DSExporter.h">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assbin\AssbinExporter.h">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assxml\AssxmlExporter.h">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Collada\ColladaExporter.h">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Obj\ObjExporter.h">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\OpenGEX\OpenGEXExporter.h">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Ply\PlyExporter.h">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXExporter.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXExportNode.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\FBX\FBXExportProperty.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\STL\STLExporter.h">
+      <Filter>STL_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X\XFileExporter.h">
+      <Filter>X_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\X3D\X3DExporter.hpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF\glTFExporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\glTF2\glTF2Exporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\3MF\D3MFExporter.h">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assjson\cencode.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Assjson\mesh_splitter.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\Step\StepExporter.h">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\build\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\pbrmaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\DefaultIOStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\DefaultIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\SceneCombiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\fast_atof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\qnan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\BaseImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\MemoryIOWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\ParsingUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\StreamReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\StreamWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\StringComparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\SGSpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\GenericProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\SpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\SmoothingGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\SmoothingGroups.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\StandardShapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\RemoveComments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Subdivision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\LineSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\TinyFormatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Profiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\LogAux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\XMLTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\IOStreamBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\CreateAnimMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Exceptional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\ByteSwapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Icaro\source\repos\Tugevus\dependences\assimp-5.0.0  FILE-EXTRATED\assimp-5.0.0\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{E4D5B8CA-D25C-3C34-B277-E89FF9B43EB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{EBEA9FEB-1BB9-329A-A863-611EF6521DC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS_EXPORTER">
+      <UniqueIdentifier>{91FBBAC8-B575-39F1-9C76-FBEEDA9C8137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{136B97F8-9C3E-35FE-8046-3994A1511912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF_EXPORTER">
+      <UniqueIdentifier>{509E20FC-B053-3EAB-BE92-5C84CDE40C2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{8174DA12-DB5E-3849-9BC6-CF26AAD26AA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMF">
+      <UniqueIdentifier>{6A5565AE-7E31-33DE-9DDA-C210ECBC2C38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{1E8713F7-0A0A-38B9-B93E-4CEC396B4827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{847BF678-5E30-373B-9DDE-1B56E8DA67AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN_EXPORTER">
+      <UniqueIdentifier>{22130F4C-9BD8-38FB-8BE4-33EBEB0B6611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSJSON_EXPORTER">
+      <UniqueIdentifier>{EC354A85-5F91-3628-B489-FB8C68C48CE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML_EXPORTER">
+      <UniqueIdentifier>{25EB93F7-4FED-39F1-9445-E41DDF5E18EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{E480E85E-A757-3C50-A59C-1E709DC58F8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{848C8A65-BB16-3354-BEFF-F0115E1098A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{9B0D1C7E-29A1-373C-A5C4-1A634780EDB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{CD7EDFCF-6A96-38FA-A891-B667F257B784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{AA9CB0A9-9E60-3E0E-BAB5-1C9890FC86E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{F73C96B4-7FFA-3E4F-9E76-8D176189D479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA_EXPORTER">
+      <UniqueIdentifier>{5B6EBC82-819B-3A11-8DF1-49B420A18FC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{443942CE-83B3-38A1-82A6-4742AE4DEBD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{153F9C47-521E-3629-A5C2-28F70BAB8064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{254F798C-C7D5-3E79-B67A-717E3F62FBCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{513AE4B1-2F55-3B86-BAB0-218A1D2ED088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{52F1D681-50AB-34D9-9C61-B88E88DD2C94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{07433A98-C053-3F82-9249-74CA7BDF66EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{EAE2D29C-C934-3B83-836E-2CC929C2A270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{F74A04CC-79A5-3B93-A2EF-EAD23FFCD43F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{521FCD29-1796-3A96-862B-6C5F2FA464CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{8E679C8C-EBDF-315D-8532-4458717A5A31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{BA3760D0-C642-343E-AE6F-68A1928970F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{DEB4D06E-FDC9-3AA6-8235-B9A2C8911798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX_EXPORTER">
+      <UniqueIdentifier>{2915B199-A5B4-3E4B-8150-FEFDB5F66BDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{10EE68EC-4D19-379A-BDEE-935DBFC248EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF_EXPORTER">
+      <UniqueIdentifier>{BF93BBBD-8497-353A-ADCA-40D19B08BE19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{A11A70D3-21CB-3256-AE40-52905463C86B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0E92A928-AD31-34B3-BB8E-6FB9724BE98F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{E39E8E2F-8C52-3B6A-9080-27FB2383636E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{439EE7E0-BD41-3701-9CFC-63DD40D385CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{13151223-4594-3F0B-BBAD-B5861518C327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{0DA3AA53-3B60-3C30-A789-E5A815AB1805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{CDBD5575-EB15-3AC3-94F8-283F5DCC3123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{B47215CE-70DD-3843-8308-442A9C1F90F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{F2E51BB8-6526-3929-841D-4869654BBA05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{470C7471-B55A-38A5-B825-B7C275D313DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{D8BA3BC1-D227-3583-A823-1D23A836C74B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{0B436371-AAE6-339D-8257-A68C9D98397C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{2CCFFC3B-1617-3326-9B28-F51F6F9028B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{85AE1B90-CEB1-3BBE-8FD8-812ADF6DDBA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMD">
+      <UniqueIdentifier>{AF43EF39-00E2-34AE-A836-A6A22B634D4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{B487F870-5B5E-3268-8C3C-C6DD93386F79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{67AD5875-5804-3995-ABFE-58657CDC6E1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{66590874-9547-38F9-8593-9376EDAD6C73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{2995AA89-3A1A-3356-A87A-B1860BD508B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{B42663ED-22A9-3316-83ED-39B9812BEC5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ_EXPORTER">
+      <UniqueIdentifier>{70AA70BD-8BD5-33BC-9428-A870CCDC9F77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{CFAA8B0F-69C1-328E-8B79-8A912BFD0926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{629DEEC8-0738-374D-ACCA-4B24238BA646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{DAB9E50A-CBE4-3022-B92C-34892AB2C491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX_EXPORTER">
+      <UniqueIdentifier>{32788C51-9A96-37C6-ACAD-808D7184673B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{A4798EE7-6EBB-31C5-A4A2-584069D0598F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY_EXPORTER">
+      <UniqueIdentifier>{E3C9298E-CBCE-3211-8297-EA940EC3ABEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{C374C3D1-FFBB-3258-9ED6-FDF92E598CBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{C329A70D-3FB1-345D-A29F-059919AD31ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{2F76C56E-BFD8-300B-8F01-762C509A93F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{53472AB2-1A85-30CC-9F3A-5D6E99556A80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{9FDC1D8B-3489-368A-A2B5-517BCD97B351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{A2842B63-F0A9-376E-8886-5BFADC6FECE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP">
+      <UniqueIdentifier>{58E88B16-2BBB-32D4-8A12-C09C0F079932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{306F6D4C-796A-35CE-A3A9-7EEFBDBDAF59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP_EXPORTER">
+      <UniqueIdentifier>{97EF12B3-4818-32A0-A2DC-BAF2E023A325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{FB662CD1-44B7-3405-8FA9-086A81EB3D77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL_EXPORTER">
+      <UniqueIdentifier>{1CC09EF0-826F-32E7-BB38-372961A71673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFFFEF02-06EB-31E1-B0EC-518897080AAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{3C67E9D3-5714-3BB3-9709-9E2FE68CA015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{DC52C87C-663A-362C-AE2E-7CF16D0BB477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D">
+      <UniqueIdentifier>{BD504455-87F9-3EC7-A32E-263A0E7F6541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D_EXPORTER">
+      <UniqueIdentifier>{46B3CAA8-A4B6-3F99-8767-827361288135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{7F62458D-429E-346B-94B2-01D365F867ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_EXPORTER">
+      <UniqueIdentifier>{EB19CB6C-252D-3085-9532-1268C4A7D627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{9AABCB18-7BAE-38BB-96AD-06AE858519B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
