@@ -18,14 +18,14 @@ Renderpass 3  - Creates the ScreenSpace Ambient Occlusion with 56 kernels  (1024
 
 Renderpass 4  - Performs a Gausian Blur on the previous on SSAO image with a 4x4 kernel (1024x1024)
 
-"Renderpass 5  - Performs light calculations , Tone Mapping and fill a lumen attachment which will be used to show Bloom Effect (1024x1024)
+"Renderpass 5  - Performs light calculations , Tone Mapping and fill a lumen attachment which is  used to show Bloom Effect (1024x1024)
 
 Renderpass 6  - Performs  Vertical Gausian Blur on the lumen attachment form the previus pass (1024x1024)
 
 Renderpass 7  - Performs  Horizontal Gausian Blur on the lumen attachment and add it's result to final image outputed at lighting stage (1024x1024)".
 
 
-Vulkan provides an awesome feature called subpass, which will consists as a local pass inside an renderpass,  unfortunately the limitation of such subpass is that it can’t be sampled. That’s the reason I’ve chosen to create multiple renderpasses.  
+Vulkan provides an awesome feature called subpass, which consists as a local pass inside an renderpass,  unfortunately the limitation of such subpass is that it can’t be sampled. That’s the reason I’ve chosen to create multiple renderpasses.  
 
 
 
