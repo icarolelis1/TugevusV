@@ -1,6 +1,6 @@
 INTRODUCTION
 
-This Vulkan render application with intent to demonstrate some graphics techniques  and  get familiarity with the new KhrounosGroup API .
+This is a Vulkan render application with intent to demonstrate some graphics techniques  and  get familiarity with the new KhrounosGroup API .
 
 The inspiration for the scene was a top down game called Yugioh Capsule Monster,although I have pretty basic skills in art and design of scenarios. Besides the graphics rendering, the program features some very basic game engine concepts such as Entity-Component relationship.
 
