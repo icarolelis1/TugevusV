@@ -1288,13 +1288,13 @@ void Render::desingUi()
 	if (ImGui::CollapsingHeader("Diagnosis")) {
 
 		ImGui::Text("The frame is rendered in 7 different renderpass as follows");
-		ImGui::BulletText("Renderpass 1  - Creates the directional shadow Map (1024x1024");
-		ImGui::BulletText("Renderpass 2  - Fill a GBUFFER with ( WorldSpace Normals,Material Properties, Albedo)  (1024x1024");
-		ImGui::BulletText("Renderpass 3  - Creates the ScreenSpace Ambient Occlusion with 56 kernels  (1024x1024");
-		ImGui::BulletText("Renderpass 4  - Performs a gausian Blur on the previus on SSAO image with a 4x4 kernel (1024x1024");
-		ImGui::BulletText("Renderpass 5  - Performs light calculations , Tone Mapping and fill a lumen attachment wich will be used to show Bloom Effect (1024x1024");
-		ImGui::BulletText("Renderpass 6  - Performs  Vertical Gausian Blur on the lumen attachment form the previus pass (1024x1024");
-		ImGui::BulletText("Renderpass 7  - Performs  Horizontal Gausian Blur on the lumen attachment and add it's result to final image outputed at lighting stage (1024x1024");
+		ImGui::BulletText("Renderpass 1  - Creates the directional shadow Map (1024x1024)");
+		ImGui::BulletText("Renderpass 2  - Fill a GBUFFER with ( WorldSpace Normals,Material Properties, Albedo)  (1024x1024)");
+		ImGui::BulletText("Renderpass 3  - Creates the ScreenSpace Ambient Occlusion with 56 kernels  (1024x1024)");
+		ImGui::BulletText("Renderpass 4  - Performs a gausian Blur on the previus on SSAO image with a 4x4 kernel (1024x1024)");
+		ImGui::BulletText("Renderpass 5  - Performs light calculations , Tone Mapping and fill a lumen attachment which  will be used to show Bloom Effect (1024x1024)");
+		ImGui::BulletText("Renderpass 6  - Performs  Vertical Gausian Blur on the lumen attachment form the previus pass (1024x1024)");
+		ImGui::BulletText("Renderpass 7  - Performs  Horizontal Gausian Blur on the lumen attachment and add it's result to final image outputed at lighting stage (1024x1024)");
 
 		static float bright = sceneSettings.brightness;
 
@@ -1313,8 +1313,6 @@ void Render::desingUi()
 					else { sceneSettings.brightness = bright; };
 
 					if (item_current == items[0])diagnosis.outPutFBO = 0;
-				
-
 					else if (item_current == items[1]) { diagnosis.outPutFBO = 1; sceneSettings.brightness = 0;}
 					else if (item_current == items[2])diagnosis.outPutFBO = 2;
 					else if (item_current == items[3])diagnosis.outPutFBO = 3;
@@ -2206,7 +2204,7 @@ void Render::creategraphicsPipelines()
 
 	}
 
-	//Reflective Shadow Map generation Pipeline
+	//Shadow Map generation Pipeline
 	{
 
 		//Shadow Map pipeline at Index 1 of renderPipelines vector 
@@ -2250,7 +2248,7 @@ void Render::creategraphicsPipelines()
 
 		pipelineInfo.atributes = atributes;
 		pipelineInfo.colorAttCount = 0;
-		pipelineInfo.cullMode = VK_CULL_MODE_FRONT_BIT	;
+		pipelineInfo.cullMode = VK_CULL_MODE_BACK_BIT	;
 		pipelineInfo.dephTest = 1;
 		pipelineInfo.depthBias = 1;
 		pipelineInfo.fragmentShaderPath = fragmentPath;

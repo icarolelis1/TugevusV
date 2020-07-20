@@ -318,18 +318,18 @@ lumaColor = vec4(0);
 
 
    switch(visualization.outputColor){
-   case(0):
+    case(0):
             outColor = vec4(color,1);break;
-   case (1):
+    case (1):
              outColor = vec4(vec3(ao),1.);break;
     case (2):
             outColor = vec4(N,1.);break;
     case (3):
                outColor = vec4(albedo,1.);break;
-     case (4) :
-                outColor = vec4(WorldPos,1.);
-   case (5) :
-                outColor = lumaColor;
+    case (4) :
+                outColor = vec4(WorldPos,1.);break;
+    case (5) :
+                outColor = lumaColor;break;
    }
 
  

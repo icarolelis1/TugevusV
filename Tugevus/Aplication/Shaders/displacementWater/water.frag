@@ -58,37 +58,7 @@ float time = parameterUbo.time;
 
 
 
-    float shadowCalculation(vec4 fragPosLightSpace, float bias)
-    {
-    return .0;
-        vec3 projCoords = fragPosLightSpace.xyz / vec3(fragPosLightSpace.w);
-
-        projCoords = (projCoords * 0.5) + vec3(0.5);
-
-        float closestDepth = texture(depthMap, projCoords.xy).x * .5 + .5 ;
-
-        float currentDepth = projCoords.z;
-
-        float shadow = 0.0;
-        vec2 texelSize = 1/textureSize(depthMap,0);
-        /*
-        for(int x = -4;x<=4;x++){
-            for(int y = -4;y<=4;y++){
-                float pcdepth = texture(depthMap,projCoords.xy + vec2(x,y) * texelSize).r * .5 + .5;
-                if(currentDepth > pcdepth)shadow+=.2;
-                else{
-                    shadow+=1.;
-                }
-            
-            }
-        
-        }
-
-        return shadow/16.;
-       */
-       // if(currentDepth > closestDepth  )return 0.2;
-       // return 1.;
-    }
+   
 
 void main()
 {
