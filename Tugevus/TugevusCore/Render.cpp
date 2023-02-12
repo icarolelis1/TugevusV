@@ -1971,10 +1971,6 @@ void Render::createSurface()
 void Render::createInstance()
 {
 		
-	if (enableValidationlayer && !debuger.checkLayerSupport()) {
-		throw std::runtime_error("validation layers requested, but not available!");
-	}
-
 
 	VkApplicationInfo appInfo = {};
 	appInfo.sType = VK_STRUCTURE_TYPE_APPLICATION_INFO;
@@ -1992,7 +1988,7 @@ void Render::createInstance()
 	createInfo.enabledExtensionCount = static_cast<uint32_t>(extensions.size());
 	createInfo.ppEnabledExtensionNames = extensions.data();
 	VkDebugUtilsMessengerCreateInfoEXT debugCreateInfo;
-	if (enableValidationlayer) {
+	if (false) {
 		//const std::vector<const char*>  layers = debuger.getValidationLayers();
 		createInfo.enabledLayerCount = static_cast<uint32_t>(validationLayer.size());
 		createInfo.ppEnabledLayerNames = validationLayer.data();

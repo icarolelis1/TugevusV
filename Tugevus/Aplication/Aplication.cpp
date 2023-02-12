@@ -75,6 +75,7 @@ void Aplication::createSceneGraph()
 	p0->attachComponent(sphereCollisor);
 	sceneGraph->addEntity(p0,nullptr);
 
+	std::cout << "Size of Model : " << sizeof(p0) << std::endl;
 
 	Entity* p1 = new Model("p1", "Aplication\\assets\\scene\\scene.obj", PBR_COOK_TORRANCE);
 	Model* piece1 = static_cast<Model*>(p1);
@@ -149,7 +150,7 @@ void Aplication::createSceneGraph()
 	sceneGraph->addEntity(water, nullptr);
 
 
-	Entity* border = new Model("board", "Aplication\\assets\\column\\border.fbx", DUMMY);
+	Entity* border = new Model("border", "Aplication\\assets\\column\\border.fbx", DUMMY);
 	Model* br = static_cast<Model*>(border);
 	br->materialset = &materials[2]->descriptorSet;
 	br->transform.setPosition(glm::vec3(0));
