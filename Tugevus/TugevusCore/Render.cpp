@@ -211,7 +211,7 @@ void Render::createSkybox() {
 
 void Render::createPostProcessingRenderPasses() {
 
-	VkExtent2D extent = presentationEngine.getExtent();
+	VkExtent2D extent =  presentationEngine.getExtent();
 	VkExtent2D extent1 = presentationEngine.getExtent();
 	extent1.width /= 4;
 	extent1.height /= 4;
@@ -607,7 +607,7 @@ void Render::createShadowMapRenderPass()
 
 
 	uint32_t numImages = presentationEngine.getImageCount();
-	VkExtent2D extent{ 1024,1024 };
+	VkExtent2D extent{ WIDTH, HEIGHT };
 
 
 
@@ -683,8 +683,8 @@ void Render::createShadowMapRenderPass()
 		createInfo.attachmentCount = static_cast<uint32_t>(attachments.size());
 		createInfo.pAttachments = attachments.data();
 		createInfo.layers = 1;
-		createInfo.width = 1024;
-		createInfo.height = 1024;
+		createInfo.width = WIDTH;
+		createInfo.height = HEIGHT;
 
 		VkResult result = vkCreateFramebuffer(*device.getVulkanDevice(), &createInfo, nullptr, &shadowMapPass.frameBuffers[i]);
 
@@ -1287,20 +1287,12 @@ void Render::desingUi()
 
 	if (ImGui::CollapsingHeader("Diagnosis")) {
 
-		ImGui::Text("The frame is rendered in 7 different renderpass as follows");
-		ImGui::BulletText("Renderpass 1  - Creates the directional shadow Map (1024x1024)");
-		ImGui::BulletText("Renderpass 2  - Fill a GBUFFER with ( WorldSpace Normals,Material Properties, Albedo)  (1024x1024)");
-		ImGui::BulletText("Renderpass 3  - Creates the ScreenSpace Ambient Occlusion with 56 kernels  (1024x1024)");
-		ImGui::BulletText("Renderpass 4  - Performs a gausian Blur on the previus on SSAO image with a 4x4 kernel (1024x1024)");
-		ImGui::BulletText("Renderpass 5  - Performs light calculations , Tone Mapping and fill a lumen attachment which  will be used to show Bloom Effect (1024x1024)");
-		ImGui::BulletText("Renderpass 6  - Performs  Vertical Gausian Blur on the lumen attachment form the previus pass (1024x1024)");
-		ImGui::BulletText("Renderpass 7  - Performs  Horizontal Gausian Blur on the lumen attachment and add it's result to final image outputed at lighting stage (1024x1024)");
-
+	
 		static float bright = sceneSettings.brightness;
 
 		ImGui::Text("Attachments Visualization");
 
-		const char* items[] = { "FINAL_IMAGE", "BLURRED_SSAO", "NORMALS", "ALBEDO","POSITION","LUMEN" };
+		const char* items[] = { "FINAL_IMAGE", "BLURRED_SSAO", "NORMALS", "ALBEDO","POSITION","BRIGHTES PART" };
 		static const char* item_current = items[0];            // Here our selection is a single pointer stored outside the object.
 		if (ImGui::BeginCombo("Color Output", item_current, 0)) // The second parameter is the label previewed before opening the combo.
 		{
@@ -1313,8 +1305,9 @@ void Render::desingUi()
 					else { sceneSettings.brightness = bright; };
 
 					if (item_current == items[0])diagnosis.outPutFBO = 0;
+				
 					else if (item_current == items[1]) { diagnosis.outPutFBO = 1; sceneSettings.brightness = 0;}
-					else if (item_current == items[2])diagnosis.outPutFBO = 2;
+					else if (item_current == items[2]) diagnosis.outPutFBO = 2;
 					else if (item_current == items[3])diagnosis.outPutFBO = 3;
 					else if (item_current == items[4])diagnosis.outPutFBO = 4;
 					else if (item_current == items[5])diagnosis.outPutFBO = 5;
@@ -1978,7 +1971,7 @@ void Render::createInstance()
 	appInfo.applicationVersion = VK_MAKE_VERSION(1, 0, 0);
 	appInfo.pEngineName = "Tugevus";
 	appInfo.engineVersion = VK_MAKE_VERSION(1, 0, 0);
-	appInfo.apiVersion = VK_API_VERSION_1_0;
+	appInfo.apiVersion = VK_API_VERSION_1_1;
 
 	VkInstanceCreateInfo createInfo = {};
 	createInfo.sType = VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
@@ -3004,8 +2997,8 @@ void Render::createDepthAttachment()
 	graphicsToolKit::createImageView(*device.getVulkanDevice(), depthResource.view, depthResource.image, format, VK_IMAGE_ASPECT_DEPTH_BIT);
 
 	//depth in lightSpace for shadow Map
-	depthMap.format = format; int d = 1024;;
-	graphicsToolKit::createImage(*device.getPhysicalDevice(), *device.getVulkanDevice(), d, d, format, VK_IMAGE_TILING_OPTIMAL, VK_IMAGE_USAGE_DEPTH_STENCIL_ATTACHMENT_BIT  | VK_IMAGE_USAGE_SAMPLED_BIT, VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT, depthMap.image, depthMap.memory, 0, 1);
+	depthMap.format = format;
+	graphicsToolKit::createImage(*device.getPhysicalDevice(), *device.getVulkanDevice(), 1920, 1080, format, VK_IMAGE_TILING_OPTIMAL, VK_IMAGE_USAGE_DEPTH_STENCIL_ATTACHMENT_BIT  | VK_IMAGE_USAGE_SAMPLED_BIT, VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT, depthMap.image, depthMap.memory, 0, 1);
 	graphicsToolKit::createImageView(*device.getVulkanDevice(), depthMap.view, depthMap.image, format, VK_IMAGE_ASPECT_DEPTH_BIT);
 
 }
@@ -3215,8 +3208,8 @@ void Render::createDrawCommand()
 			renderPassInfo.framebuffer = shadowMapPass.frameBuffers[i];
 			renderPassInfo.renderArea.offset = { 0,0 };
 			VkExtent2D extent{};
-			extent.width = 1024;
-			extent.height = 1024;
+			extent.width = WIDTH;
+			extent.height = HEIGHT;
 			renderPassInfo.renderArea.extent = extent;
 
 			std::array<VkClearValue, 5> clearValues = {};
@@ -3238,14 +3231,14 @@ void Render::createDrawCommand()
 			vkCmdBeginRenderPass(cmdBuffers[i], &renderPassInfo, VK_SUBPASS_CONTENTS_INLINE);
 
 			VkViewport viewport = {};
-			viewport.height = 1024;
-			viewport.width = 1024;
+			viewport.height = HEIGHT;
+			viewport.width  = WIDTH;
 
 			viewport.maxDepth = 1.0f;
 
 			VkRect2D rect = {};
-			rect.extent.width = 1024;
-			rect.extent.height = 1024;
+			rect.extent.height = HEIGHT ;
+			rect.extent.width  = WIDTH;
 			rect.offset = { 0,0 };
 			vkCmdSetViewport(cmdBuffers[i], 0, 1, &viewport);
 			vkCmdSetScissor(cmdBuffers[i], 0, 1, &rect);
@@ -3302,8 +3295,8 @@ void Render::createDrawCommand()
 			vkCmdBeginRenderPass(cmdBuffers[i], &renderPassInfo, VK_SUBPASS_CONTENTS_INLINE);
 
 			VkViewport viewport = {};
-			viewport.height = WIDTH;
-			viewport.width = HEIGHT;
+			viewport.height = HEIGHT;
+			viewport.width = WIDTH;
 
 			viewport.maxDepth = 1.0f;
 
@@ -3393,13 +3386,13 @@ void Render::createDrawCommand()
 			vkCmdBeginRenderPass(cmdBuffers[i], &renderPassInfo, VK_SUBPASS_CONTENTS_INLINE);
 
 			VkViewport viewport = {};
-			viewport.height = WIDTH;
-			viewport.width = HEIGHT;
+			viewport.width = WIDTH;
+			viewport.height = HEIGHT;
 
 			viewport.maxDepth = 1.0f;
 
 			VkRect2D rect = {};
-			rect.extent.width = WIDTH;
+			rect.extent.width  = WIDTH;
 			rect.extent.height = HEIGHT;
 			rect.offset = { 0,0 };
 			vkCmdSetViewport(cmdBuffers[i], 0, 1, &viewport);
@@ -3425,7 +3418,7 @@ void Render::createDrawCommand()
 			renderPassInfo.renderArea.offset = { 0,0 };
 
 			VkExtent2D extent{};
-			extent.width = WIDTH;
+			extent.width =  WIDTH;
 			extent.height = HEIGHT;
 			renderPassInfo.renderArea.extent = extent;
 
@@ -3440,13 +3433,13 @@ void Render::createDrawCommand()
 			vkCmdBeginRenderPass(cmdBuffers[i], &renderPassInfo, VK_SUBPASS_CONTENTS_INLINE);
 
 			VkViewport viewport = {};
-			viewport.height = WIDTH;
-			viewport.width = HEIGHT;
+			viewport.width = WIDTH;
+			viewport.height = HEIGHT;
 
 			viewport.maxDepth = 1.0f;
 
 			VkRect2D rect = {};
-			rect.extent.width = WIDTH;
+			rect.extent.width  = WIDTH;
 			rect.extent.height = HEIGHT;
 			rect.offset = { 0,0 };
 			vkCmdSetViewport(cmdBuffers[i], 0, 1, &viewport);
@@ -3567,13 +3560,13 @@ void Render::createDrawCommand()
 			vkCmdBeginRenderPass(cmdBuffers[i], &renderPassInfo, VK_SUBPASS_CONTENTS_INLINE);
 
 			VkViewport viewport = {};
+			viewport.width  = WIDTH;
 			viewport.height = HEIGHT;
-			viewport.width = WIDTH;
 
 			viewport.maxDepth = 1.0f;
 
 			VkRect2D rect = {};
-			rect.extent.width = WIDTH;
+			rect.extent.width  = WIDTH;
 			rect.extent.height = HEIGHT;
 			rect.offset = { 0,0 };
 

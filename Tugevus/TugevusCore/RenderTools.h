@@ -10,8 +10,8 @@ static const std::vector<const char*> validationLayer = {
 		"VK_LAYER_LUNARG_standard_validation"
 };
 
-static  int WIDTH = 1024;
-static  int HEIGHT = 1024;
+static  int WIDTH = 1920;
+static  int HEIGHT = 1080;
 
 namespace initializers {
 

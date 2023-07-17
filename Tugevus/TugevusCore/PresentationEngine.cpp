@@ -22,7 +22,7 @@ uint32_t PresentationEngine::getImageCount()
 
 VkExtent2D PresentationEngine::getExtent()
 {
-	VkExtent2D extent = { WIDTH,HEIGHT };
+	VkExtent2D extent = { 1920,1080 };
 
 
 	return extent;

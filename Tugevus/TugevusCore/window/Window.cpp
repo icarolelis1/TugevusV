@@ -7,10 +7,10 @@ Window::Window(unsigned int height, int unsigned width, const char* _title): tit
 {
 	 glfwInit();
 	 glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
-	 glfwWindowHint(GLFW_RESIZABLE, 0);
+	 glfwWindowHint(GLFW_RESIZABLE, 1);
 
-	 windowProperties.height = height;
-	 windowProperties.width = width;	
+	 windowProperties.height = 1080;
+	 windowProperties.width = 1920;	
 	 glfw_window = glfwCreateWindow(windowProperties.width,windowProperties.height, title, nullptr, nullptr);
 	 glfwMakeContextCurrent(glfw_window);
 

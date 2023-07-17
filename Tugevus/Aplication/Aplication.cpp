@@ -25,7 +25,7 @@ Aplication::~Aplication()
 void Aplication::initiateResources()
 {
 	//Create window abstraction object and the Render inside window
-	window = std::make_shared<Window>(1600,1024,aplicationName.c_str());
+	window = std::make_shared<Window>(1920,1080,aplicationName.c_str());
 
 	assert(window->glfw_window != nullptr);
 	
